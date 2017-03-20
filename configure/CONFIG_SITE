@@ -44,3 +44,5 @@ endif
 # Disable COMMANDLINE_LIBRARY so libraries won't be linked to readline.
 COMMANDLINE_LIBRARY=
 
+# Allow for local configuration as well
+-include $(TOP)/configure/CONFIG_SITE.local
