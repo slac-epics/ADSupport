@@ -1,0 +1,6 @@
+#
+# RELEASE_NOTES
+#
+R1.1-0.1.0	2017-03-20	Bruce Hill
+	Updated to build for SLAC git workflow.
+	Building WITH all packages, no EXTERNAL
