@@ -1,6 +1,12 @@
 #
 # RELEASE_NOTES
 #
+R1.1-0.1.1	2018-03-28	Bruce Hill
+	Split out WITH_HDF5=... from CONFIG_SITE.local to CFG += CONFIG_ADSupport
+		This installs CONFIG_ADSupport to TOP/cfg/CONFIG_ADSupport and thus
+		it gets automatically read by the ioc make so you don't need to redefine
+		all your WITH_FOO macros in your ioc.
+
 R1.1-0.1.0	2017-03-20	Bruce Hill
 	Updated to build for SLAC git workflow.
 	Building WITH all packages, no EXTERNAL
