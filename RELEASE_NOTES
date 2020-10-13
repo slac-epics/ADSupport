@@ -1,6 +1,21 @@
 #
 # RELEASE_NOTES
 #
+
+R1.9-0.1.0	2017-03-20 Bruce Hill
+	Start with prior RELEASE_NOTES from R1.1-0.1.1
+	SLAC build support
+	Split out WITH_HDF5=... from CONFIG_SITE.local to CFG += CONFIG_ADSupport
+	CONFIG_ADSupport defines WITH_* = YES for the following:
+		WITH_HDF5		= YES
+		WITH_JPEG		= YES
+		WITH_NETCDF		= YES
+		WITH_NEXUS		= YES
+		WITH_SZIP		= YES
+		WITH_TIFF		= YES
+		WITH_XML2		= YES
+		WITH_ZLIB		= YES
+
 R1.1-0.1.1	2018-03-28	Bruce Hill
 	Split out WITH_HDF5=... from CONFIG_SITE.local to CFG += CONFIG_ADSupport
 		This installs CONFIG_ADSupport to TOP/cfg/CONFIG_ADSupport and thus
